@@ -1,0 +1,514 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 52;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0FA5C9EA34BF1C3D750DA4AE /* Pods_AlynProto.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8ECA8883A5AC55C370C7AFF6 /* Pods_AlynProto.framework */; };
+		E194E6E326344FAF00F3C922 /* Recovery.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E194E6E226344FAF00F3C922 /* Recovery.storyboard */; };
+		E19614B02618A03500CDA844 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E19614AF2618A03500CDA844 /* AppDelegate.swift */; };
+		E19614B22618A03500CDA844 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E19614B12618A03500CDA844 /* SceneDelegate.swift */; };
+		E19614B42618A03500CDA844 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E19614B32618A03500CDA844 /* ViewController.swift */; };
+		E19614B72618A03500CDA844 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E19614B52618A03500CDA844 /* Main.storyboard */; };
+		E19614BA2618A03500CDA844 /* AlynProto.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = E19614B82618A03500CDA844 /* AlynProto.xcdatamodeld */; };
+		E19614BC2618A04000CDA844 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E19614BB2618A04000CDA844 /* Assets.xcassets */; };
+		E19614BF2618A04000CDA844 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E19614BD2618A04000CDA844 /* LaunchScreen.storyboard */; };
+		E19614C92618A19C00CDA844 /* CareKitUI in Frameworks */ = {isa = PBXBuildFile; productRef = E19614C82618A19C00CDA844 /* CareKitUI */; };
+		E19614CB2618A19C00CDA844 /* CareKit in Frameworks */ = {isa = PBXBuildFile; productRef = E19614CA2618A19C00CDA844 /* CareKit */; };
+		E19614CD2618A19C00CDA844 /* CareKitStore in Frameworks */ = {isa = PBXBuildFile; productRef = E19614CC2618A19C00CDA844 /* CareKitStore */; };
+		E1961523261CCFC100CDA844 /* SurveyTask.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1961520261CCFC000CDA844 /* SurveyTask.swift */; };
+		E1961524261CCFC100CDA844 /* ConsentTask.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1961521261CCFC100CDA844 /* ConsentTask.swift */; };
+		E1961525261CCFC100CDA844 /* ActiveTask.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1961522261CCFC100CDA844 /* ActiveTask.swift */; };
+		E196155E262452E200CDA844 /* HealthKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E196155826244D8A00CDA844 /* HealthKit.framework */; };
+		E196156326246A0900CDA844 /* CareViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E196156226246A0900CDA844 /* CareViewController.swift */; };
+		E196156926246F6000CDA844 /* CareStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = E196156826246F6000CDA844 /* CareStore.swift */; };
+		E19615992631640700CDA844 /* DesignableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E19615982631640600CDA844 /* DesignableView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		5189C910350C8CC4020F90BE /* Pods-AlynProto.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AlynProto.debug.xcconfig"; path = "Target Support Files/Pods-AlynProto/Pods-AlynProto.debug.xcconfig"; sourceTree = "<group>"; };
+		8ECA8883A5AC55C370C7AFF6 /* Pods_AlynProto.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AlynProto.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D8E7D42BB5539EE033209D9A /* Pods-AlynProto.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AlynProto.release.xcconfig"; path = "Target Support Files/Pods-AlynProto/Pods-AlynProto.release.xcconfig"; sourceTree = "<group>"; };
+		E194E6E226344FAF00F3C922 /* Recovery.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Recovery.storyboard; sourceTree = "<group>"; };
+		E19614AC2618A03500CDA844 /* AlynProto.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AlynProto.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E19614AF2618A03500CDA844 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		E19614B12618A03500CDA844 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		E19614B32618A03500CDA844 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		E19614B62618A03500CDA844 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		E19614B92618A03500CDA844 /* AlynProto.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = AlynProto.xcdatamodel; sourceTree = "<group>"; };
+		E19614BB2618A04000CDA844 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E19614BE2618A04000CDA844 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		E19614C02618A04000CDA844 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E1961520261CCFC000CDA844 /* SurveyTask.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SurveyTask.swift; sourceTree = "<group>"; };
+		E1961521261CCFC100CDA844 /* ConsentTask.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConsentTask.swift; sourceTree = "<group>"; };
+		E1961522261CCFC100CDA844 /* ActiveTask.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ActiveTask.swift; sourceTree = "<group>"; };
+		E196155726244D8900CDA844 /* AlynProto.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = AlynProto.entitlements; sourceTree = "<group>"; };
+		E196155826244D8A00CDA844 /* HealthKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = HealthKit.framework; path = System/Library/Frameworks/HealthKit.framework; sourceTree = SDKROOT; };
+		E196156226246A0900CDA844 /* CareViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CareViewController.swift; sourceTree = "<group>"; };
+		E196156826246F6000CDA844 /* CareStore.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CareStore.swift; sourceTree = "<group>"; };
+		E19615982631640600CDA844 /* DesignableView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DesignableView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E19614A92618A03400CDA844 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E19614CB2618A19C00CDA844 /* CareKit in Frameworks */,
+				E19614C92618A19C00CDA844 /* CareKitUI in Frameworks */,
+				E19614CD2618A19C00CDA844 /* CareKitStore in Frameworks */,
+				0FA5C9EA34BF1C3D750DA4AE /* Pods_AlynProto.framework in Frameworks */,
+				E196155E262452E200CDA844 /* HealthKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E19614A32618A03400CDA844 = {
+			isa = PBXGroup;
+			children = (
+				E19614AE2618A03500CDA844 /* AlynProto */,
+				E19614AD2618A03500CDA844 /* Products */,
+				E19614FC261CC1F800CDA844 /* Frameworks */,
+				F1A230D98DEBA0EFA895DC0C /* Pods */,
+			);
+			sourceTree = "<group>";
+		};
+		E19614AD2618A03500CDA844 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E19614AC2618A03500CDA844 /* AlynProto.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E19614AE2618A03500CDA844 /* AlynProto */ = {
+			isa = PBXGroup;
+			children = (
+				E196155726244D8900CDA844 /* AlynProto.entitlements */,
+				E19614AF2618A03500CDA844 /* AppDelegate.swift */,
+				E19614B12618A03500CDA844 /* SceneDelegate.swift */,
+				E19614B32618A03500CDA844 /* ViewController.swift */,
+				E196156226246A0900CDA844 /* CareViewController.swift */,
+				E196156826246F6000CDA844 /* CareStore.swift */,
+				E19614B52618A03500CDA844 /* Main.storyboard */,
+				E194E6E226344FAF00F3C922 /* Recovery.storyboard */,
+				E19615982631640600CDA844 /* DesignableView.swift */,
+				E19614BB2618A04000CDA844 /* Assets.xcassets */,
+				E19614BD2618A04000CDA844 /* LaunchScreen.storyboard */,
+				E1961522261CCFC100CDA844 /* ActiveTask.swift */,
+				E1961521261CCFC100CDA844 /* ConsentTask.swift */,
+				E1961520261CCFC000CDA844 /* SurveyTask.swift */,
+				E19614C02618A04000CDA844 /* Info.plist */,
+				E19614B82618A03500CDA844 /* AlynProto.xcdatamodeld */,
+			);
+			path = AlynProto;
+			sourceTree = "<group>";
+		};
+		E19614FC261CC1F800CDA844 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E196155826244D8A00CDA844 /* HealthKit.framework */,
+				8ECA8883A5AC55C370C7AFF6 /* Pods_AlynProto.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F1A230D98DEBA0EFA895DC0C /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				5189C910350C8CC4020F90BE /* Pods-AlynProto.debug.xcconfig */,
+				D8E7D42BB5539EE033209D9A /* Pods-AlynProto.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E19614AB2618A03400CDA844 /* AlynProto */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E19614C32618A04000CDA844 /* Build configuration list for PBXNativeTarget "AlynProto" */;
+			buildPhases = (
+				9D966882040AEBA4010D8CC1 /* [CP] Check Pods Manifest.lock */,
+				E19614A82618A03400CDA844 /* Sources */,
+				E19614A92618A03400CDA844 /* Frameworks */,
+				E19614AA2618A03400CDA844 /* Resources */,
+				E65FD1A7D795CFC644A5CEDB /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AlynProto;
+			packageProductDependencies = (
+				E19614C82618A19C00CDA844 /* CareKitUI */,
+				E19614CA2618A19C00CDA844 /* CareKit */,
+				E19614CC2618A19C00CDA844 /* CareKitStore */,
+			);
+			productName = AlynProto;
+			productReference = E19614AC2618A03500CDA844 /* AlynProto.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E19614A42618A03400CDA844 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1240;
+				LastUpgradeCheck = 1240;
+				TargetAttributes = {
+					E19614AB2618A03400CDA844 = {
+						CreatedOnToolsVersion = 12.4;
+					};
+				};
+			};
+			buildConfigurationList = E19614A72618A03400CDA844 /* Build configuration list for PBXProject "AlynProto" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E19614A32618A03400CDA844;
+			packageReferences = (
+				E19614C72618A19C00CDA844 /* XCRemoteSwiftPackageReference "CareKit" */,
+			);
+			productRefGroup = E19614AD2618A03500CDA844 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E19614AB2618A03400CDA844 /* AlynProto */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E19614AA2618A03400CDA844 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E19614BF2618A04000CDA844 /* LaunchScreen.storyboard in Resources */,
+				E194E6E326344FAF00F3C922 /* Recovery.storyboard in Resources */,
+				E19614BC2618A04000CDA844 /* Assets.xcassets in Resources */,
+				E19614B72618A03500CDA844 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		9D966882040AEBA4010D8CC1 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-AlynProto-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E65FD1A7D795CFC644A5CEDB /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-AlynProto/Pods-AlynProto-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-AlynProto/Pods-AlynProto-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-AlynProto/Pods-AlynProto-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E19614A82618A03400CDA844 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E19614B42618A03500CDA844 /* ViewController.swift in Sources */,
+				E196156926246F6000CDA844 /* CareStore.swift in Sources */,
+				E19614B02618A03500CDA844 /* AppDelegate.swift in Sources */,
+				E1961525261CCFC100CDA844 /* ActiveTask.swift in Sources */,
+				E1961523261CCFC100CDA844 /* SurveyTask.swift in Sources */,
+				E1961524261CCFC100CDA844 /* ConsentTask.swift in Sources */,
+				E19614BA2618A03500CDA844 /* AlynProto.xcdatamodeld in Sources */,
+				E19614B22618A03500CDA844 /* SceneDelegate.swift in Sources */,
+				E19615992631640700CDA844 /* DesignableView.swift in Sources */,
+				E196156326246A0900CDA844 /* CareViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		E19614B52618A03500CDA844 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E19614B62618A03500CDA844 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		E19614BD2618A04000CDA844 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E19614BE2618A04000CDA844 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E19614C12618A04000CDA844 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		E19614C22618A04000CDA844 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E19614C42618A04000CDA844 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5189C910350C8CC4020F90BE /* Pods-AlynProto.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = AlynProto/AlynProto.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 687T3WYF47;
+				INFOPLIST_FILE = AlynProto/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.AlexAgarkv.AlynProto;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		E19614C52618A04000CDA844 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D8E7D42BB5539EE033209D9A /* Pods-AlynProto.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = AlynProto/AlynProto.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 687T3WYF47;
+				INFOPLIST_FILE = AlynProto/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.AlexAgarkv.AlynProto;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E19614A72618A03400CDA844 /* Build configuration list for PBXProject "AlynProto" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E19614C12618A04000CDA844 /* Debug */,
+				E19614C22618A04000CDA844 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E19614C32618A04000CDA844 /* Build configuration list for PBXNativeTarget "AlynProto" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E19614C42618A04000CDA844 /* Debug */,
+				E19614C52618A04000CDA844 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		E19614C72618A19C00CDA844 /* XCRemoteSwiftPackageReference "CareKit" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/carekit-apple/CareKit";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 2.0.1;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		E19614C82618A19C00CDA844 /* CareKitUI */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = E19614C72618A19C00CDA844 /* XCRemoteSwiftPackageReference "CareKit" */;
+			productName = CareKitUI;
+		};
+		E19614CA2618A19C00CDA844 /* CareKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = E19614C72618A19C00CDA844 /* XCRemoteSwiftPackageReference "CareKit" */;
+			productName = CareKit;
+		};
+		E19614CC2618A19C00CDA844 /* CareKitStore */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = E19614C72618A19C00CDA844 /* XCRemoteSwiftPackageReference "CareKit" */;
+			productName = CareKitStore;
+		};
+/* End XCSwiftPackageProductDependency section */
+
+/* Begin XCVersionGroup section */
+		E19614B82618A03500CDA844 /* AlynProto.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				E19614B92618A03500CDA844 /* AlynProto.xcdatamodel */,
+			);
+			currentVersion = E19614B92618A03500CDA844 /* AlynProto.xcdatamodel */;
+			path = AlynProto.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = E19614A42618A03400CDA844 /* Project object */;
+}
